@@ -1,0 +1,22 @@
+.box{
+    padding: .75rem 0;
+    background: #525f6cf2;
+    width: 100%;
+    color:#fff;
+    z-index: 10;
+}
+.title{
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.title span{
+    color:#f54;
+}
+.menu a{
+    margin:.75rem;
+}
+.menu a:hover{
+    color:#f54;
+    text-decoration: none;
+}
