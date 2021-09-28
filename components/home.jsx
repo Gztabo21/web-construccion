@@ -1,7 +1,8 @@
 import React from'react';
 import {Navbar} from'./navbar';
 import styles from '../styles/Home.module.css'
-import { Button } from "@chakra-ui/react"
+import Image from 'next/image';
+import { Button ,Box } from "@chakra-ui/react"
 
 export function Homepage(){
     return(
@@ -20,6 +21,9 @@ export function Homepage(){
             Contrucciones <span>FC</span>
             </h1>
         </div>
+        <Box>
+            <Image alt="whatsapp-ico" src="/whatsapp_icon.svg" width="50xp" height="100xp"/>
+        </Box>
         
        <Button className={styles.button} bg="#f54" color="#fff"> Contactanos </Button>
       </main>

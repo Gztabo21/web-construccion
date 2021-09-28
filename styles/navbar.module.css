@@ -4,6 +4,8 @@
     width: 100%;
     color:#fff;
     z-index: 10;
+    position:fixed;
+    top:.25px;
 }
 .title{
     letter-spacing: 2px;
