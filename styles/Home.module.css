@@ -1,5 +1,5 @@
 .container {
-  background:#234;
+  background:#7b8a99;
 /*   padding: 0 0.5rem; */
   display: flex;
   flex-direction: column;
@@ -31,6 +31,9 @@
   object-fit: cover;
   opacity: 0.8;
 }
+.media{
+  padding: 2rem;
+}
 
 .button:hover{
   color:#f54; 
@@ -45,6 +48,7 @@
 }
 
 .footer a {
+  color:#fff;
   display: flex;
   justify-content: center;
   align-items: center;

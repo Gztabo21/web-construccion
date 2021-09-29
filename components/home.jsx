@@ -22,7 +22,8 @@ export function Homepage(){
             </h1>
         </div>
         <Box>
-            <Image alt="whatsapp-ico" src="/whatsapp_icon.svg" width="50xp" height="100xp"/>
+            <Image alt="whatsapp-ico" className={styles.media} src="/whatsapp_icon.svg" width="50xp" height="100xp"/>
+            <Image alt="mail-ico" className={styles.media} src="/mail.svg" width="50xp" height="100xp"/>
         </Box>
         
        <Button className={styles.button} bg="#f54" color="#fff"> Contactanos </Button>
